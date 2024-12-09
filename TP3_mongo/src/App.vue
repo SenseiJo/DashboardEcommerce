@@ -5,13 +5,12 @@ import { RouterLink, RouterView } from 'vue-router'
 <template>
   <div>
     <div class="flex h-screen">
-
       <div class="w-80  h-full bg-gray-500 text-white overflow-y-auto">
         <img src="/images/logo_fastbrocode.png" class="size-24 mx-auto p-2 bg-white rounded-full my-4"
           alt="Logo FastBroCode" />
 
 
-        <RouterLink class="block-url" to="/customers" active-class="text-gray-200 border-y">
+        <RouterLink class="block-url" to="/" active-class="text-gray-200 border-y">
           Clients
         </RouterLink>
 
@@ -22,10 +21,8 @@ import { RouterLink, RouterView } from 'vue-router'
         <RouterLink class="block-url" to="/orders" active-class="text-gray-200 border-y">
           Commandes
         </RouterLink>
-
-
       </div>
-      <RouterView class="size-full "></RouterView>
+      <RouterView class="size-full overflow-y-auto"></RouterView>
     </div>
   </div>
 </template>

@@ -15,10 +15,10 @@ app.get("/", (req, res) => {
 });
 
 app.get("/", (req, res) => {
-  res.send("zvz!");
+  res.send("Hello!");
 });
 app.use(pathAPI, router);
 
 app.listen(port, () => {
-  console.log(`Example app listening on port ${port}`);
+  console.log(`Le serveur tourne sur http://localhost:${port}`);
 });

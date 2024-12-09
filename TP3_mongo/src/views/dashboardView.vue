@@ -1,5 +1,5 @@
 <template>
-    <router-view class="size-full overflow-y-auto"></router-view>
+    <router-view></router-view>
 </template>
 <script setup lang="ts">
 

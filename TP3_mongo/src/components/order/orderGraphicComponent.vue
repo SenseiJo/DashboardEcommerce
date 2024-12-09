@@ -1,6 +1,6 @@
 <template>
     <div class=" w-full px-4 border-b mt-2">
-        <div class="ml-4">
+        <div class="ml-4 mb-8 ">
             <h2 class="underline font-bold uppercase mb-8">Statistiques</h2>
             <div class="flex items-center justify-evenly mx-auto flex-wrap space-y-8">
                 <div class="flex">
@@ -8,7 +8,7 @@
                     <countriesComponent class="m-8 " />
                 </div>
                 <hiredateComponent class="m-8  " />
-                <productsComponent class="m-8  " />
+                <productsComponent class="m-8 " />
             </div>
         </div>
     </div>

@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .block-url {
+    @apply flex items-center justify-center text-center p-4;
+  }
+}
